@@ -8,5 +8,11 @@
     "projects": "PROJECTS",
     "skills": "SKILLS",
     "contact": "CONTACT"
+  },
+  "home":{
+    "welcome": "Hello,",
+    "welcome2": "welcome!",
+    "about": "My name is Luis Guilherme, and I'm a back-end developer.",
+    "description": "Luis Guilherme's profile image in black and white."   
   }
 }
