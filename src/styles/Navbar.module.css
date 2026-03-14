@@ -12,20 +12,19 @@
 
 .navbar_mobile {
     display: flex;
-    flex-direction: row;
+    flex-direction: row; 
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding:0 13px;
-    gap: 140px;
+    padding:0 10px;
+    gap: 100px;
 }
 
 .title_mobile {
-    font-size: 10px;
+    font-size: 2.2rem;
     color: var(--black);
     font-family: var(--font_secondary);
-    font-size: 3.5rem;
-    margin: 14px 0 12px 14px;
+    margin: 10px;
     color: var(--black);
 }
 
