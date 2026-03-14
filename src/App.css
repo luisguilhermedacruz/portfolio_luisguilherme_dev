@@ -6,7 +6,7 @@
   left: 0;
 
   width: 100vw;
-  height: 100vh;
+  height: 100dvh;
 
   background-color: var(--white_tree);
   border: 12px solid var(--black);
