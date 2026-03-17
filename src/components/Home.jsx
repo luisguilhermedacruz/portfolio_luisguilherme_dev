@@ -12,7 +12,7 @@ const Home = () => {
       style={{ backgroundImage: `url(${backgroundImage})` }}
     >
       <div className={style.welcome_text_container}>
-        <h1 className={style.welcome_text}>{t("home.welcome")}</h1>
+        <h1 className={style.welcome_text}>{t("home.welcome")}{' '} </h1>
         <h1 className={style.welcome_text_2}>{t("home.welcome2")}</h1>
       </div>
       <img
