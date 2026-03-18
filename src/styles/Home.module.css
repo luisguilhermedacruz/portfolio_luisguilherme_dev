@@ -99,7 +99,60 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1280px){
+   .home_container {
+    min-height: calc(100vh - 90px);
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 30px 24px 40px;
+  }
+
+  .welcome_text,
+  .welcome_text_2 {
+    font-family: var(--font_secondary), sans-serif;
+    font-size: 2.6rem;
+    line-height: 1.2;
+    margin: 0;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 0;
+  }
+
+  .welcome_text_container {
+    margin: 0;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+  }
+
+  .about_text {
+    font-family: var(--font_secondary), sans-serif;
+    font-size: 2.2rem;
+    line-height: 1.4;
+    margin-top: 10px;
+    max-width: 460px;
+    text-align: center;
+    font-weight: 300;
+  }
+
+  .about_text strong {
+    font-weight: 600;
+  }
+
+  .profile_picture {
+    width: 28rem;
+    height: 28rem;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 30px;
+    border: 6px solid var(--black);
+    display: block;
+  }
+}
+
+@media (min-width: 1281px) {
   .home_container {
     min-height: calc(100vh - 90px);
     display: grid;
