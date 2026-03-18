@@ -11,7 +11,7 @@ const Navlinks = () => {
       <a href="#about">{t('nav.about')}</a>
       <a href="#projects">{t('nav.projects')}</a>
       <a href="#skills">{t('nav.skills')}</a>
-      <a href="#contact">{t('nav.contact')}</a>
+      <a href="#contact" className={style.button_contato}>{t('nav.contact')}</a>
     </div>
   )
 }

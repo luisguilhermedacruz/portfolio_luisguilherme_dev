@@ -62,33 +62,84 @@
   font-weight: 300;
 }
 
-@media (min-width: 768px) {
-.home_container {
-    justify-content: flex-start !important;
-    padding-top: 0 !important;
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: center !important;
+@media (min-width: 768px) and (max-width: 1023px) {
+  .home_container {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 30px 40px;
   }
 
- 
-  .welcome_text_container, 
-  .about_text, 
+  .welcome_text_container {
+    margin: 0;
+    max-width: 180px;
+    align-self: flex-start;
+    margin-top: 20px;
+  }
+
+  .welcome_text,
+  .welcome_text_2 {
+    font-size: 2.3rem;
+    line-height: 1.1;
+    margin: 0;
+  }
+
   .profile_picture {
-    position: static !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    display: block !important;
-    width: fit-content !important;
+    width: 20rem;
+    height: 20rem;
+    margin-bottom: 0;
   }
 
-  
-.welcome_text_container {
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: center !important;
-    text-align: center !important;
-    width: 100% !important; 
-    margin-top: 0 !important; 
+  .about_text {
+    font-size: 2.3rem;
+    line-height: 1.25;
+    margin: 0;
+    max-width: 330px;
+  }
+}
+
+@media (min-width: 768px) {
+  .home_container {
+    min-height: calc(100vh - 90px);
+    display: grid;
+    grid-template-columns: 250px 380px 340px;
+    align-items: center;
+    justify-content: center;
+    column-gap: 2.5rem;
+    padding: 30px 50px;
+  }
+
+  .welcome_text_container {
+    margin: 0;
+    max-width: 250px;
+    align-self: start;
+    margin-top: 10px;
+  }
+
+  .welcome_text,
+  .welcome_text_2 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+    margin: 0;
+  }
+
+  .profile_picture {
+    width: 30rem;
+    height: 30rem;
+    margin: 0 8rem 0 2rem ;
+    border-radius: 18%;
+    border: 6px solid var(--black);
+    justify-self: center;
+  }
+
+  .about_text {
+    font-size: 2.7rem;
+    line-height: 1.35;
+    margin: 0 0 0 1rem;
+    font-weight: 600;
+    max-width: 340px;
+    text-align: left;
+
   }
 }

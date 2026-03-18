@@ -21,3 +21,16 @@ a:hover {
     flex-direction: row;
     gap: 40px;
 }
+
+.button_contato{
+    color:var(--white_one);
+    background: var(--black);
+    padding: 0.5px 15px;
+    border-radius: 10px;
+    font-weight:500
+}
+
+.button_contato:hover{
+    color:var(--white_one);
+    background: var(--black);
+}
